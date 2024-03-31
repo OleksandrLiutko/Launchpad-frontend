@@ -1,0 +1,5 @@
+<svg>
+    <filter id="color-dodge">
+        <feBlend mode="color-dodge" in2="BackgroundImage" />
+    </filter>
+</svg>
