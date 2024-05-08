@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "start": "craco --openssl-legacy-provider start",
+    "start": "set NODE_OPTIONS=--openssl-legacy-provider && craco --openssl-legacy-provider start",
     "build": "set NODE_OPTIONS=--openssl-legacy-provider && craco build",
     "test": "craco test",
     "eject": "react-scripts eject",
